@@ -1,0 +1,7 @@
+
+{
+    "baseUrl":"https://gateway.marvel.com:443/v1/public/characters",
+    "apiKey": "?apikey=d1ee16a3fedf7714f955bbe33d17ef8a",
+    "hashKey": "&hash=e3f3130f3d960ccc23ef7b2e426c1bb9",
+    "timestamp": "&ts=1508406476"
+}

@@ -1,0 +1,1163 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4033C2F6383B2EE7A271441F /* Pods_MarvelHeroes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD15782D94AED0F7E8E721B /* Pods_MarvelHeroes.framework */; };
+		6683E5B76D3C86974A184D07 /* Pods_MarvelHeroesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CA4C0F9474421FA1A245E6 /* Pods_MarvelHeroesTests.framework */; };
+		CC21542C438D6AA7AF1B28E2 /* Pods_MarvelHeroesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF836804E0FAAFEE9DF5AD3 /* Pods_MarvelHeroesUITests.framework */; };
+		DF1463A81FEC0BC100FDBB55 /* IJTTopicDetailedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1463A71FEC0BC100FDBB55 /* IJTTopicDetailedView.m */; };
+		DF164CA31F98D8010022AEEB /* IJTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF164CA21F98D8010022AEEB /* IJTAppDelegate.m */; };
+		DF164CAC1F98D8010022AEEB /* MarvelHeroes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF164CAA1F98D8010022AEEB /* MarvelHeroes.xcdatamodeld */; };
+		DF164CAE1F98D8010022AEEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF164CAD1F98D8010022AEEB /* Assets.xcassets */; };
+		DF164CB11F98D8010022AEEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF164CAF1F98D8010022AEEB /* LaunchScreen.storyboard */; };
+		DF164CB41F98D8010022AEEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF164CB31F98D8010022AEEB /* main.m */; };
+		DF164CBE1F98D8020022AEEB /* MarvelHeroesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF164CBD1F98D8020022AEEB /* MarvelHeroesTests.m */; };
+		DF164CC91F98D8020022AEEB /* MarvelHeroesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF164CC81F98D8020022AEEB /* MarvelHeroesUITests.m */; };
+		DF164CE11F98D9DA0022AEEB /* IJTSuperHeroModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF164CE01F98D9DA0022AEEB /* IJTSuperHeroModel.m */; };
+		DF2435261FBDEFE8001234D6 /* API.json in Resources */ = {isa = PBXBuildFile; fileRef = DF2435251FBDEFE8001234D6 /* API.json */; };
+		DF774AC81FD6C71A0071C3EC /* IJTHeroDetailedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF774AC71FD6C71A0071C3EC /* IJTHeroDetailedView.m */; };
+		DF774ACB1FD6C74A0071C3EC /* IJTHeroDetailedView+Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = DF774ACA1FD6C74A0071C3EC /* IJTHeroDetailedView+Configuration.m */; };
+		DF8022F91F9E06F20023019A /* IJTStoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8022F81F9E06F20023019A /* IJTStoryModel.m */; };
+		DF8022FC1F9E06FD0023019A /* IJTComicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8022FB1F9E06FD0023019A /* IJTComicModel.m */; };
+		DF8023001F9E07180023019A /* IJTEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8022FF1F9E07180023019A /* IJTEventModel.m */; };
+		DF8023031F9E09C60023019A /* IJTSerieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8023021F9E09C60023019A /* IJTSerieModel.m */; };
+		DF818BEE1FCEA78300D501C5 /* IJTEventModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF818BE91FCEA78200D501C5 /* IJTEventModelTests.m */; };
+		DF818BEF1FCEA78300D501C5 /* IJTSerieModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF818BEA1FCEA78200D501C5 /* IJTSerieModelTests.m */; };
+		DF818BF01FCEA78300D501C5 /* IJTStoryModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF818BEB1FCEA78300D501C5 /* IJTStoryModelTests.m */; };
+		DF818BF11FCEA78300D501C5 /* IJTComicModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF818BEC1FCEA78300D501C5 /* IJTComicModelTests.m */; };
+		DF818BF21FCEA78300D501C5 /* IJTSuperHeroModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF818BED1FCEA78300D501C5 /* IJTSuperHeroModelTests.m */; };
+		DF818BF71FCEA78E00D501C5 /* IJTNetworkLayer+UIImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF818BF31FCEA78E00D501C5 /* IJTNetworkLayer+UIImageTests.m */; };
+		DF818BF81FCEA78E00D501C5 /* IJTNetworkLayer+SuperHeroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF818BF41FCEA78E00D501C5 /* IJTNetworkLayer+SuperHeroTests.m */; };
+		DF818BF91FCEA78E00D501C5 /* IJTNetworkLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF818BF51FCEA78E00D501C5 /* IJTNetworkLayerTests.m */; };
+		DF818BFA1FCEA78E00D501C5 /* IJTNetworkLayer+TopicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF818BF61FCEA78E00D501C5 /* IJTNetworkLayer+TopicTests.m */; };
+		DF818BFF1FCEA79400D501C5 /* IJTNSCache+UIImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF818BFC1FCEA79400D501C5 /* IJTNSCache+UIImageTests.m */; };
+		DF818C001FCEA79400D501C5 /* IJTUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF818BFD1FCEA79400D501C5 /* IJTUtilsTests.m */; };
+		DF818C091FCEBA4B00D501C5 /* IJTPersistenceCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = DF818C081FCEBA4B00D501C5 /* IJTPersistenceCoordinator.m */; };
+		DF818C0C1FCEBC3B00D501C5 /* IJTActivityIndicatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF818C0B1FCEBC3B00D501C5 /* IJTActivityIndicatorController.m */; };
+		DF959A991FD05AEA007B4BBE /* IJTAnyPromise+Comic.m in Sources */ = {isa = PBXBuildFile; fileRef = DF959A981FD05AEA007B4BBE /* IJTAnyPromise+Comic.m */; };
+		DF959A9C1FD05C22007B4BBE /* IJTAnyPromise+Story.m in Sources */ = {isa = PBXBuildFile; fileRef = DF959A9B1FD05C22007B4BBE /* IJTAnyPromise+Story.m */; };
+		DF959A9F1FD05CD3007B4BBE /* IJTAnyPromise+Event.m in Sources */ = {isa = PBXBuildFile; fileRef = DF959A9E1FD05CD3007B4BBE /* IJTAnyPromise+Event.m */; };
+		DF959AA21FD05D60007B4BBE /* IJTAnyPromise+Serie.m in Sources */ = {isa = PBXBuildFile; fileRef = DF959AA11FD05D60007B4BBE /* IJTAnyPromise+Serie.m */; };
+		DF959AA61FD06C32007B4BBE /* IJTAnyPromise+Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = DF959AA51FD06C32007B4BBE /* IJTAnyPromise+Hero.m */; };
+		DF9BF0151FA0CF0000F09D40 /* IJTPushAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9BF0141FA0CF0000F09D40 /* IJTPushAnimator.m */; };
+		DFDFBC551FCDC87800D4D821 /* IJTHeroesListingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC4D1FCDC87700D4D821 /* IJTHeroesListingDataSource.m */; };
+		DFDFBC561FCDC87800D4D821 /* IJTHeroesListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC4F1FCDC87700D4D821 /* IJTHeroesListingViewController.m */; };
+		DFDFBC571FCDC87800D4D821 /* IJTHeroesListingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC501FCDC87800D4D821 /* IJTHeroesListingCell.m */; };
+		DFDFBC581FCDC87800D4D821 /* IJTHeroesListingCell+Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC531FCDC87800D4D821 /* IJTHeroesListingCell+Configuration.m */; };
+		DFDFBC5D1FCDC8AF00D4D821 /* IJTHeroDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC591FCDC8AF00D4D821 /* IJTHeroDetailedViewController.m */; };
+		DFDFBC5E1FCDC8AF00D4D821 /* IJTHeroDetailedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC5B1FCDC8AF00D4D821 /* IJTHeroDetailedDataSource.m */; };
+		DFDFBC631FCDC91000D4D821 /* IJTTopicDetailedViewControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC5F1FCDC90F00D4D821 /* IJTTopicDetailedViewControllerDataSource.m */; };
+		DFDFBC641FCDC91000D4D821 /* IJTTopicDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC611FCDC91000D4D821 /* IJTTopicDetailedViewController.m */; };
+		DFDFBC691FCDC92A00D4D821 /* IJTFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC671FCDC92900D4D821 /* IJTFavoritesViewController.m */; };
+		DFDFBC6A1FCDC92A00D4D821 /* IJTFavoritesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC681FCDC92900D4D821 /* IJTFavoritesDataSource.m */; };
+		DFDFBC771FCDC93F00D4D821 /* IJTCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC711FCDC93E00D4D821 /* IJTCache.m */; };
+		DFDFBC781FCDC93F00D4D821 /* IJTAPIConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC721FCDC93E00D4D821 /* IJTAPIConstants.m */; };
+		DFDFBC8A1FCDC95B00D4D821 /* IJTNetworkLayer+SuperHero.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC7E1FCDC95A00D4D821 /* IJTNetworkLayer+SuperHero.m */; };
+		DFDFBC8B1FCDC95B00D4D821 /* IJTNetworkLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC7F1FCDC95A00D4D821 /* IJTNetworkLayer.m */; };
+		DFDFBC8C1FCDC95B00D4D821 /* IJTNetworkLayer+Event.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC831FCDC95A00D4D821 /* IJTNetworkLayer+Event.m */; };
+		DFDFBC8D1FCDC95B00D4D821 /* IJTNetworkLayer+Story.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC841FCDC95A00D4D821 /* IJTNetworkLayer+Story.m */; };
+		DFDFBC8E1FCDC95B00D4D821 /* IJTNetworkLayerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC851FCDC95A00D4D821 /* IJTNetworkLayerConfig.m */; };
+		DFDFBC8F1FCDC95B00D4D821 /* IJTNetworkLayer+Serie.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC861FCDC95A00D4D821 /* IJTNetworkLayer+Serie.m */; };
+		DFDFBC901FCDC95B00D4D821 /* IJTNetworkLayer+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC871FCDC95A00D4D821 /* IJTNetworkLayer+UIImage.m */; };
+		DFDFBC911FCDC95B00D4D821 /* IJTNetworkLayer+Comic.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFBC881FCDC95B00D4D821 /* IJTNetworkLayer+Comic.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF164CBA1F98D8020022AEEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF164C961F98D8010022AEEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF164C9D1F98D8010022AEEB;
+			remoteInfo = MarvelHeroes;
+		};
+		DF164CC51F98D8020022AEEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF164C961F98D8010022AEEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF164C9D1F98D8010022AEEB;
+			remoteInfo = MarvelHeroes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23A07590F1739981EEF53202 /* Pods-MarvelHeroesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelHeroesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarvelHeroesUITests/Pods-MarvelHeroesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AEA989B420DEF92380A48E0 /* Pods-MarvelHeroes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelHeroes.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarvelHeroes/Pods-MarvelHeroes.release.xcconfig"; sourceTree = "<group>"; };
+		77E665402554B9044B69846F /* Pods-MarvelHeroesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelHeroesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarvelHeroesTests/Pods-MarvelHeroesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		79F6BBA51F6D09285A136335 /* Pods-MarvelHeroesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelHeroesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarvelHeroesUITests/Pods-MarvelHeroesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B8CB69AE3DE3AD0E4B686F70 /* Pods-MarvelHeroesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelHeroesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarvelHeroesTests/Pods-MarvelHeroesTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE551F054B4C20B99385E45E /* Pods-MarvelHeroes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelHeroes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarvelHeroes/Pods-MarvelHeroes.debug.xcconfig"; sourceTree = "<group>"; };
+		DBD15782D94AED0F7E8E721B /* Pods_MarvelHeroes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarvelHeroes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1463A61FEC0BC100FDBB55 /* IJTTopicDetailedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJTTopicDetailedView.h; sourceTree = "<group>"; };
+		DF1463A71FEC0BC100FDBB55 /* IJTTopicDetailedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTTopicDetailedView.m; sourceTree = "<group>"; };
+		DF164C9E1F98D8010022AEEB /* MarvelHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF164CA11F98D8010022AEEB /* IJTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJTAppDelegate.h; sourceTree = "<group>"; };
+		DF164CA21F98D8010022AEEB /* IJTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTAppDelegate.m; sourceTree = "<group>"; };
+		DF164CAB1F98D8010022AEEB /* MarvelHeroes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarvelHeroes.xcdatamodel; sourceTree = "<group>"; };
+		DF164CAD1F98D8010022AEEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF164CB01F98D8010022AEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF164CB21F98D8010022AEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF164CB31F98D8010022AEEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF164CB91F98D8020022AEEB /* MarvelHeroesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelHeroesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF164CBD1F98D8020022AEEB /* MarvelHeroesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarvelHeroesTests.m; sourceTree = "<group>"; };
+		DF164CBF1F98D8020022AEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF164CC41F98D8020022AEEB /* MarvelHeroesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelHeroesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF164CC81F98D8020022AEEB /* MarvelHeroesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarvelHeroesUITests.m; sourceTree = "<group>"; };
+		DF164CCA1F98D8020022AEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF164CDF1F98D9DA0022AEEB /* IJTSuperHeroModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJTSuperHeroModel.h; sourceTree = "<group>"; };
+		DF164CE01F98D9DA0022AEEB /* IJTSuperHeroModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTSuperHeroModel.m; sourceTree = "<group>"; };
+		DF2435251FBDEFE8001234D6 /* API.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = API.json; sourceTree = "<group>"; };
+		DF774AC61FD6C71A0071C3EC /* IJTHeroDetailedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJTHeroDetailedView.h; sourceTree = "<group>"; };
+		DF774AC71FD6C71A0071C3EC /* IJTHeroDetailedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTHeroDetailedView.m; sourceTree = "<group>"; };
+		DF774AC91FD6C74A0071C3EC /* IJTHeroDetailedView+Configuration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IJTHeroDetailedView+Configuration.h"; sourceTree = "<group>"; };
+		DF774ACA1FD6C74A0071C3EC /* IJTHeroDetailedView+Configuration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IJTHeroDetailedView+Configuration.m"; sourceTree = "<group>"; };
+		DF8022F71F9E06F20023019A /* IJTStoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJTStoryModel.h; sourceTree = "<group>"; };
+		DF8022F81F9E06F20023019A /* IJTStoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTStoryModel.m; sourceTree = "<group>"; };
+		DF8022FA1F9E06FD0023019A /* IJTComicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJTComicModel.h; sourceTree = "<group>"; };
+		DF8022FB1F9E06FD0023019A /* IJTComicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTComicModel.m; sourceTree = "<group>"; };
+		DF8022FE1F9E07180023019A /* IJTEventModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJTEventModel.h; sourceTree = "<group>"; };
+		DF8022FF1F9E07180023019A /* IJTEventModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTEventModel.m; sourceTree = "<group>"; };
+		DF8023011F9E09C60023019A /* IJTSerieModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJTSerieModel.h; sourceTree = "<group>"; };
+		DF8023021F9E09C60023019A /* IJTSerieModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTSerieModel.m; sourceTree = "<group>"; };
+		DF818BE91FCEA78200D501C5 /* IJTEventModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTEventModelTests.m; sourceTree = "<group>"; };
+		DF818BEA1FCEA78200D501C5 /* IJTSerieModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTSerieModelTests.m; sourceTree = "<group>"; };
+		DF818BEB1FCEA78300D501C5 /* IJTStoryModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTStoryModelTests.m; sourceTree = "<group>"; };
+		DF818BEC1FCEA78300D501C5 /* IJTComicModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTComicModelTests.m; sourceTree = "<group>"; };
+		DF818BED1FCEA78300D501C5 /* IJTSuperHeroModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTSuperHeroModelTests.m; sourceTree = "<group>"; };
+		DF818BF31FCEA78E00D501C5 /* IJTNetworkLayer+UIImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IJTNetworkLayer+UIImageTests.m"; sourceTree = "<group>"; };
+		DF818BF41FCEA78E00D501C5 /* IJTNetworkLayer+SuperHeroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IJTNetworkLayer+SuperHeroTests.m"; sourceTree = "<group>"; };
+		DF818BF51FCEA78E00D501C5 /* IJTNetworkLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTNetworkLayerTests.m; sourceTree = "<group>"; };
+		DF818BF61FCEA78E00D501C5 /* IJTNetworkLayer+TopicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IJTNetworkLayer+TopicTests.m"; sourceTree = "<group>"; };
+		DF818BFC1FCEA79400D501C5 /* IJTNSCache+UIImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IJTNSCache+UIImageTests.m"; sourceTree = "<group>"; };
+		DF818BFD1FCEA79400D501C5 /* IJTUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTUtilsTests.m; sourceTree = "<group>"; };
+		DF818C071FCEBA4B00D501C5 /* IJTPersistenceCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJTPersistenceCoordinator.h; sourceTree = "<group>"; };
+		DF818C081FCEBA4B00D501C5 /* IJTPersistenceCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTPersistenceCoordinator.m; sourceTree = "<group>"; };
+		DF818C0A1FCEBC3B00D501C5 /* IJTActivityIndicatorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJTActivityIndicatorController.h; sourceTree = "<group>"; };
+		DF818C0B1FCEBC3B00D501C5 /* IJTActivityIndicatorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTActivityIndicatorController.m; sourceTree = "<group>"; };
+		DF959A931FD059EE007B4BBE /* MarvelHeroes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarvelHeroes-Bridging-Header.h"; sourceTree = "<group>"; };
+		DF959A971FD05AEA007B4BBE /* IJTAnyPromise+Comic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IJTAnyPromise+Comic.h"; sourceTree = "<group>"; };
+		DF959A981FD05AEA007B4BBE /* IJTAnyPromise+Comic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IJTAnyPromise+Comic.m"; sourceTree = "<group>"; };
+		DF959A9A1FD05C22007B4BBE /* IJTAnyPromise+Story.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IJTAnyPromise+Story.h"; sourceTree = "<group>"; };
+		DF959A9B1FD05C22007B4BBE /* IJTAnyPromise+Story.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IJTAnyPromise+Story.m"; sourceTree = "<group>"; };
+		DF959A9D1FD05CD3007B4BBE /* IJTAnyPromise+Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IJTAnyPromise+Event.h"; sourceTree = "<group>"; };
+		DF959A9E1FD05CD3007B4BBE /* IJTAnyPromise+Event.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IJTAnyPromise+Event.m"; sourceTree = "<group>"; };
+		DF959AA01FD05D60007B4BBE /* IJTAnyPromise+Serie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IJTAnyPromise+Serie.h"; sourceTree = "<group>"; };
+		DF959AA11FD05D60007B4BBE /* IJTAnyPromise+Serie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IJTAnyPromise+Serie.m"; sourceTree = "<group>"; };
+		DF959AA41FD06C32007B4BBE /* IJTAnyPromise+Hero.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IJTAnyPromise+Hero.h"; sourceTree = "<group>"; };
+		DF959AA51FD06C32007B4BBE /* IJTAnyPromise+Hero.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IJTAnyPromise+Hero.m"; sourceTree = "<group>"; };
+		DF9BF0131FA0CF0000F09D40 /* IJTPushAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJTPushAnimator.h; sourceTree = "<group>"; };
+		DF9BF0141FA0CF0000F09D40 /* IJTPushAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJTPushAnimator.m; sourceTree = "<group>"; };
+		DFDFBC4D1FCDC87700D4D821 /* IJTHeroesListingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTHeroesListingDataSource.m; sourceTree = "<group>"; };
+		DFDFBC4E1FCDC87700D4D821 /* IJTHeroesListingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTHeroesListingDataSource.h; sourceTree = "<group>"; };
+		DFDFBC4F1FCDC87700D4D821 /* IJTHeroesListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTHeroesListingViewController.m; sourceTree = "<group>"; };
+		DFDFBC501FCDC87800D4D821 /* IJTHeroesListingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTHeroesListingCell.m; sourceTree = "<group>"; };
+		DFDFBC511FCDC87800D4D821 /* IJTHeroesListingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTHeroesListingCell.h; sourceTree = "<group>"; };
+		DFDFBC521FCDC87800D4D821 /* IJTHeroesListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTHeroesListingViewController.h; sourceTree = "<group>"; };
+		DFDFBC531FCDC87800D4D821 /* IJTHeroesListingCell+Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IJTHeroesListingCell+Configuration.m"; sourceTree = "<group>"; };
+		DFDFBC541FCDC87800D4D821 /* IJTHeroesListingCell+Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IJTHeroesListingCell+Configuration.h"; sourceTree = "<group>"; };
+		DFDFBC591FCDC8AF00D4D821 /* IJTHeroDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTHeroDetailedViewController.m; sourceTree = "<group>"; };
+		DFDFBC5A1FCDC8AF00D4D821 /* IJTHeroDetailedDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTHeroDetailedDataSource.h; sourceTree = "<group>"; };
+		DFDFBC5B1FCDC8AF00D4D821 /* IJTHeroDetailedDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTHeroDetailedDataSource.m; sourceTree = "<group>"; };
+		DFDFBC5C1FCDC8AF00D4D821 /* IJTHeroDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTHeroDetailedViewController.h; sourceTree = "<group>"; };
+		DFDFBC5F1FCDC90F00D4D821 /* IJTTopicDetailedViewControllerDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTTopicDetailedViewControllerDataSource.m; sourceTree = "<group>"; };
+		DFDFBC601FCDC91000D4D821 /* IJTTopicDetailedViewControllerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTTopicDetailedViewControllerDataSource.h; sourceTree = "<group>"; };
+		DFDFBC611FCDC91000D4D821 /* IJTTopicDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTTopicDetailedViewController.m; sourceTree = "<group>"; };
+		DFDFBC621FCDC91000D4D821 /* IJTTopicDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTTopicDetailedViewController.h; sourceTree = "<group>"; };
+		DFDFBC651FCDC92900D4D821 /* IJTFavoritesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTFavoritesDataSource.h; sourceTree = "<group>"; };
+		DFDFBC661FCDC92900D4D821 /* IJTFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTFavoritesViewController.h; sourceTree = "<group>"; };
+		DFDFBC671FCDC92900D4D821 /* IJTFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTFavoritesViewController.m; sourceTree = "<group>"; };
+		DFDFBC681FCDC92900D4D821 /* IJTFavoritesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTFavoritesDataSource.m; sourceTree = "<group>"; };
+		DFDFBC6B1FCDC93E00D4D821 /* IJTAPIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTAPIConstants.h; sourceTree = "<group>"; };
+		DFDFBC711FCDC93E00D4D821 /* IJTCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTCache.m; sourceTree = "<group>"; };
+		DFDFBC721FCDC93E00D4D821 /* IJTAPIConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTAPIConstants.m; sourceTree = "<group>"; };
+		DFDFBC741FCDC93F00D4D821 /* IJTCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTCache.h; sourceTree = "<group>"; };
+		DFDFBC7A1FCDC95A00D4D821 /* IJTNetworkLayer+Comic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IJTNetworkLayer+Comic.h"; sourceTree = "<group>"; };
+		DFDFBC7B1FCDC95A00D4D821 /* IJTNetworkLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTNetworkLayer.h; sourceTree = "<group>"; };
+		DFDFBC7C1FCDC95A00D4D821 /* IJTNetworkLayerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTNetworkLayerConfig.h; sourceTree = "<group>"; };
+		DFDFBC7D1FCDC95A00D4D821 /* IJTNetworkLayer+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IJTNetworkLayer+UIImage.h"; sourceTree = "<group>"; };
+		DFDFBC7E1FCDC95A00D4D821 /* IJTNetworkLayer+SuperHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IJTNetworkLayer+SuperHero.m"; sourceTree = "<group>"; };
+		DFDFBC7F1FCDC95A00D4D821 /* IJTNetworkLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTNetworkLayer.m; sourceTree = "<group>"; };
+		DFDFBC801FCDC95A00D4D821 /* IJTNetworkLayer+Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IJTNetworkLayer+Event.h"; sourceTree = "<group>"; };
+		DFDFBC811FCDC95A00D4D821 /* IJTNetworkLayer+Serie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IJTNetworkLayer+Serie.h"; sourceTree = "<group>"; };
+		DFDFBC821FCDC95A00D4D821 /* IJTNetworkLayer+Story.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IJTNetworkLayer+Story.h"; sourceTree = "<group>"; };
+		DFDFBC831FCDC95A00D4D821 /* IJTNetworkLayer+Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IJTNetworkLayer+Event.m"; sourceTree = "<group>"; };
+		DFDFBC841FCDC95A00D4D821 /* IJTNetworkLayer+Story.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IJTNetworkLayer+Story.m"; sourceTree = "<group>"; };
+		DFDFBC851FCDC95A00D4D821 /* IJTNetworkLayerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTNetworkLayerConfig.m; sourceTree = "<group>"; };
+		DFDFBC861FCDC95A00D4D821 /* IJTNetworkLayer+Serie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IJTNetworkLayer+Serie.m"; sourceTree = "<group>"; };
+		DFDFBC871FCDC95A00D4D821 /* IJTNetworkLayer+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IJTNetworkLayer+UIImage.m"; sourceTree = "<group>"; };
+		DFDFBC881FCDC95B00D4D821 /* IJTNetworkLayer+Comic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IJTNetworkLayer+Comic.m"; sourceTree = "<group>"; };
+		DFDFBC891FCDC95B00D4D821 /* IJTNetworkLayer+SuperHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IJTNetworkLayer+SuperHero.h"; sourceTree = "<group>"; };
+		E2CA4C0F9474421FA1A245E6 /* Pods_MarvelHeroesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarvelHeroesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF836804E0FAAFEE9DF5AD3 /* Pods_MarvelHeroesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarvelHeroesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF164C9B1F98D8010022AEEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4033C2F6383B2EE7A271441F /* Pods_MarvelHeroes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF164CB61F98D8020022AEEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6683E5B76D3C86974A184D07 /* Pods_MarvelHeroesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF164CC11F98D8020022AEEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC21542C438D6AA7AF1B28E2 /* Pods_MarvelHeroesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114E69AC1E6A8C8A48C706AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE551F054B4C20B99385E45E /* Pods-MarvelHeroes.debug.xcconfig */,
+				5AEA989B420DEF92380A48E0 /* Pods-MarvelHeroes.release.xcconfig */,
+				77E665402554B9044B69846F /* Pods-MarvelHeroesTests.debug.xcconfig */,
+				B8CB69AE3DE3AD0E4B686F70 /* Pods-MarvelHeroesTests.release.xcconfig */,
+				23A07590F1739981EEF53202 /* Pods-MarvelHeroesUITests.debug.xcconfig */,
+				79F6BBA51F6D09285A136335 /* Pods-MarvelHeroesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7CCDBB9834E7BF08C7D98933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBD15782D94AED0F7E8E721B /* Pods_MarvelHeroes.framework */,
+				E2CA4C0F9474421FA1A245E6 /* Pods_MarvelHeroesTests.framework */,
+				FAF836804E0FAAFEE9DF5AD3 /* Pods_MarvelHeroesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF164C951F98D8010022AEEB = {
+			isa = PBXGroup;
+			children = (
+				DF164CA01F98D8010022AEEB /* MarvelHeroes */,
+				DF164CBC1F98D8020022AEEB /* MarvelHeroesTests */,
+				DF164CC71F98D8020022AEEB /* MarvelHeroesUITests */,
+				DF164C9F1F98D8010022AEEB /* Products */,
+				114E69AC1E6A8C8A48C706AE /* Pods */,
+				7CCDBB9834E7BF08C7D98933 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF164C9F1F98D8010022AEEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF164C9E1F98D8010022AEEB /* MarvelHeroes.app */,
+				DF164CB91F98D8020022AEEB /* MarvelHeroesTests.xctest */,
+				DF164CC41F98D8020022AEEB /* MarvelHeroesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF164CA01F98D8010022AEEB /* MarvelHeroes */ = {
+			isa = PBXGroup;
+			children = (
+				DF164CA11F98D8010022AEEB /* IJTAppDelegate.h */,
+				DF164CA21F98D8010022AEEB /* IJTAppDelegate.m */,
+				DF164CB31F98D8010022AEEB /* main.m */,
+				DF164CB21F98D8010022AEEB /* Info.plist */,
+				DF164CDB1F98D8FD0022AEEB /* Resources */,
+				DF959A961FD05ABC007B4BBE /* Promises */,
+				DF2435181FBDAEFE001234D6 /* NetworkLayer */,
+				DF9EE7DC1FA2261000F852AC /* Utils */,
+				DF164CD71F98D8110022AEEB /* Model */,
+				DF164CD91F98D8DA0022AEEB /* View */,
+				DF774AC21FD6B8550071C3EC /* DataSource */,
+				DF164CDA1F98D8E20022AEEB /* Controller */,
+			);
+			path = MarvelHeroes;
+			sourceTree = "<group>";
+		};
+		DF164CBC1F98D8020022AEEB /* MarvelHeroesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF818C031FCEAF8000D501C5 /* IJTUtilsTests */,
+				DF818C021FCEAF6200D501C5 /* IJTNetworkLayerTests */,
+				DF818C011FCEAF4A00D501C5 /* IJTModelTests */,
+				DF164CBD1F98D8020022AEEB /* MarvelHeroesTests.m */,
+				DF164CBF1F98D8020022AEEB /* Info.plist */,
+			);
+			path = MarvelHeroesTests;
+			sourceTree = "<group>";
+		};
+		DF164CC71F98D8020022AEEB /* MarvelHeroesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF164CC81F98D8020022AEEB /* MarvelHeroesUITests.m */,
+				DF164CCA1F98D8020022AEEB /* Info.plist */,
+			);
+			path = MarvelHeroesUITests;
+			sourceTree = "<group>";
+		};
+		DF164CD71F98D8110022AEEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF164CDF1F98D9DA0022AEEB /* IJTSuperHeroModel.h */,
+				DF164CE01F98D9DA0022AEEB /* IJTSuperHeroModel.m */,
+				DF8022F71F9E06F20023019A /* IJTStoryModel.h */,
+				DF8022F81F9E06F20023019A /* IJTStoryModel.m */,
+				DF8022FA1F9E06FD0023019A /* IJTComicModel.h */,
+				DF8022FB1F9E06FD0023019A /* IJTComicModel.m */,
+				DF8022FE1F9E07180023019A /* IJTEventModel.h */,
+				DF8022FF1F9E07180023019A /* IJTEventModel.m */,
+				DF8023011F9E09C60023019A /* IJTSerieModel.h */,
+				DF8023021F9E09C60023019A /* IJTSerieModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF164CD91F98D8DA0022AEEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF164CAF1F98D8010022AEEB /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF164CDA1F98D8E20022AEEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF959AA31FD05EDA007B4BBE /* PushAnimator */,
+				DFDA0FBB1FB4770E00F8AAAE /* IJTFavoritesViewController */,
+				DFDA0FBA1FB4770300F8AAAE /* IJTTopicDetailed */,
+				DFDA0FB91FB476FA00F8AAAE /* IJTHeroDetailed */,
+				DFDA0FB81FB476DE00F8AAAE /* IJTHeroesListing */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF164CDB1F98D8FD0022AEEB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF959A931FD059EE007B4BBE /* MarvelHeroes-Bridging-Header.h */,
+				DF2435251FBDEFE8001234D6 /* API.json */,
+				DF164CAA1F98D8010022AEEB /* MarvelHeroes.xcdatamodeld */,
+				DF164CAD1F98D8010022AEEB /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DF2435181FBDAEFE001234D6 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DFDFBC7B1FCDC95A00D4D821 /* IJTNetworkLayer.h */,
+				DFDFBC7F1FCDC95A00D4D821 /* IJTNetworkLayer.m */,
+				DFDFBC7A1FCDC95A00D4D821 /* IJTNetworkLayer+Comic.h */,
+				DFDFBC881FCDC95B00D4D821 /* IJTNetworkLayer+Comic.m */,
+				DFDFBC801FCDC95A00D4D821 /* IJTNetworkLayer+Event.h */,
+				DFDFBC831FCDC95A00D4D821 /* IJTNetworkLayer+Event.m */,
+				DFDFBC811FCDC95A00D4D821 /* IJTNetworkLayer+Serie.h */,
+				DFDFBC861FCDC95A00D4D821 /* IJTNetworkLayer+Serie.m */,
+				DFDFBC821FCDC95A00D4D821 /* IJTNetworkLayer+Story.h */,
+				DFDFBC841FCDC95A00D4D821 /* IJTNetworkLayer+Story.m */,
+				DFDFBC891FCDC95B00D4D821 /* IJTNetworkLayer+SuperHero.h */,
+				DFDFBC7E1FCDC95A00D4D821 /* IJTNetworkLayer+SuperHero.m */,
+				DFDFBC7D1FCDC95A00D4D821 /* IJTNetworkLayer+UIImage.h */,
+				DFDFBC871FCDC95A00D4D821 /* IJTNetworkLayer+UIImage.m */,
+				DFDFBC7C1FCDC95A00D4D821 /* IJTNetworkLayerConfig.h */,
+				DFDFBC851FCDC95A00D4D821 /* IJTNetworkLayerConfig.m */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		DF774AC21FD6B8550071C3EC /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				DFDFBC5A1FCDC8AF00D4D821 /* IJTHeroDetailedDataSource.h */,
+				DFDFBC5B1FCDC8AF00D4D821 /* IJTHeroDetailedDataSource.m */,
+				DFDFBC601FCDC91000D4D821 /* IJTTopicDetailedViewControllerDataSource.h */,
+				DFDFBC5F1FCDC90F00D4D821 /* IJTTopicDetailedViewControllerDataSource.m */,
+				DFDFBC651FCDC92900D4D821 /* IJTFavoritesDataSource.h */,
+				DFDFBC681FCDC92900D4D821 /* IJTFavoritesDataSource.m */,
+				DFDFBC4E1FCDC87700D4D821 /* IJTHeroesListingDataSource.h */,
+				DFDFBC4D1FCDC87700D4D821 /* IJTHeroesListingDataSource.m */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		DF818C011FCEAF4A00D501C5 /* IJTModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF818BEC1FCEA78300D501C5 /* IJTComicModelTests.m */,
+				DF818BE91FCEA78200D501C5 /* IJTEventModelTests.m */,
+				DF818BEA1FCEA78200D501C5 /* IJTSerieModelTests.m */,
+				DF818BEB1FCEA78300D501C5 /* IJTStoryModelTests.m */,
+				DF818BED1FCEA78300D501C5 /* IJTSuperHeroModelTests.m */,
+			);
+			path = IJTModelTests;
+			sourceTree = "<group>";
+		};
+		DF818C021FCEAF6200D501C5 /* IJTNetworkLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF818BF41FCEA78E00D501C5 /* IJTNetworkLayer+SuperHeroTests.m */,
+				DF818BF61FCEA78E00D501C5 /* IJTNetworkLayer+TopicTests.m */,
+				DF818BF31FCEA78E00D501C5 /* IJTNetworkLayer+UIImageTests.m */,
+				DF818BF51FCEA78E00D501C5 /* IJTNetworkLayerTests.m */,
+			);
+			path = IJTNetworkLayerTests;
+			sourceTree = "<group>";
+		};
+		DF818C031FCEAF8000D501C5 /* IJTUtilsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF818BFC1FCEA79400D501C5 /* IJTNSCache+UIImageTests.m */,
+				DF818BFD1FCEA79400D501C5 /* IJTUtilsTests.m */,
+			);
+			path = IJTUtilsTests;
+			sourceTree = "<group>";
+		};
+		DF959A961FD05ABC007B4BBE /* Promises */ = {
+			isa = PBXGroup;
+			children = (
+				DF959A971FD05AEA007B4BBE /* IJTAnyPromise+Comic.h */,
+				DF959A981FD05AEA007B4BBE /* IJTAnyPromise+Comic.m */,
+				DF959A9A1FD05C22007B4BBE /* IJTAnyPromise+Story.h */,
+				DF959A9B1FD05C22007B4BBE /* IJTAnyPromise+Story.m */,
+				DF959A9D1FD05CD3007B4BBE /* IJTAnyPromise+Event.h */,
+				DF959A9E1FD05CD3007B4BBE /* IJTAnyPromise+Event.m */,
+				DF959AA01FD05D60007B4BBE /* IJTAnyPromise+Serie.h */,
+				DF959AA11FD05D60007B4BBE /* IJTAnyPromise+Serie.m */,
+				DF959AA41FD06C32007B4BBE /* IJTAnyPromise+Hero.h */,
+				DF959AA51FD06C32007B4BBE /* IJTAnyPromise+Hero.m */,
+			);
+			path = Promises;
+			sourceTree = "<group>";
+		};
+		DF959AA31FD05EDA007B4BBE /* PushAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				DF9BF0131FA0CF0000F09D40 /* IJTPushAnimator.h */,
+				DF9BF0141FA0CF0000F09D40 /* IJTPushAnimator.m */,
+			);
+			path = PushAnimator;
+			sourceTree = "<group>";
+		};
+		DF9EE7DC1FA2261000F852AC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DFDFBC741FCDC93F00D4D821 /* IJTCache.h */,
+				DFDFBC711FCDC93E00D4D821 /* IJTCache.m */,
+				DFDFBC6B1FCDC93E00D4D821 /* IJTAPIConstants.h */,
+				DFDFBC721FCDC93E00D4D821 /* IJTAPIConstants.m */,
+				DF818C071FCEBA4B00D501C5 /* IJTPersistenceCoordinator.h */,
+				DF818C081FCEBA4B00D501C5 /* IJTPersistenceCoordinator.m */,
+				DF818C0A1FCEBC3B00D501C5 /* IJTActivityIndicatorController.h */,
+				DF818C0B1FCEBC3B00D501C5 /* IJTActivityIndicatorController.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DFDA0FB81FB476DE00F8AAAE /* IJTHeroesListing */ = {
+			isa = PBXGroup;
+			children = (
+				DFDFBC511FCDC87800D4D821 /* IJTHeroesListingCell.h */,
+				DFDFBC501FCDC87800D4D821 /* IJTHeroesListingCell.m */,
+				DFDFBC541FCDC87800D4D821 /* IJTHeroesListingCell+Configuration.h */,
+				DFDFBC531FCDC87800D4D821 /* IJTHeroesListingCell+Configuration.m */,
+				DFDFBC521FCDC87800D4D821 /* IJTHeroesListingViewController.h */,
+				DFDFBC4F1FCDC87700D4D821 /* IJTHeroesListingViewController.m */,
+			);
+			path = IJTHeroesListing;
+			sourceTree = "<group>";
+		};
+		DFDA0FB91FB476FA00F8AAAE /* IJTHeroDetailed */ = {
+			isa = PBXGroup;
+			children = (
+				DFDFBC5C1FCDC8AF00D4D821 /* IJTHeroDetailedViewController.h */,
+				DFDFBC591FCDC8AF00D4D821 /* IJTHeroDetailedViewController.m */,
+				DF774AC61FD6C71A0071C3EC /* IJTHeroDetailedView.h */,
+				DF774AC71FD6C71A0071C3EC /* IJTHeroDetailedView.m */,
+				DF774AC91FD6C74A0071C3EC /* IJTHeroDetailedView+Configuration.h */,
+				DF774ACA1FD6C74A0071C3EC /* IJTHeroDetailedView+Configuration.m */,
+			);
+			path = IJTHeroDetailed;
+			sourceTree = "<group>";
+		};
+		DFDA0FBA1FB4770300F8AAAE /* IJTTopicDetailed */ = {
+			isa = PBXGroup;
+			children = (
+				DFDFBC621FCDC91000D4D821 /* IJTTopicDetailedViewController.h */,
+				DFDFBC611FCDC91000D4D821 /* IJTTopicDetailedViewController.m */,
+				DF1463A61FEC0BC100FDBB55 /* IJTTopicDetailedView.h */,
+				DF1463A71FEC0BC100FDBB55 /* IJTTopicDetailedView.m */,
+			);
+			path = IJTTopicDetailed;
+			sourceTree = "<group>";
+		};
+		DFDA0FBB1FB4770E00F8AAAE /* IJTFavoritesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFDFBC661FCDC92900D4D821 /* IJTFavoritesViewController.h */,
+				DFDFBC671FCDC92900D4D821 /* IJTFavoritesViewController.m */,
+			);
+			path = IJTFavoritesViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF164C9D1F98D8010022AEEB /* MarvelHeroes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF164CCD1F98D8020022AEEB /* Build configuration list for PBXNativeTarget "MarvelHeroes" */;
+			buildPhases = (
+				296687F6D6C54C99EE85EE50 /* [CP] Check Pods Manifest.lock */,
+				DF164C9A1F98D8010022AEEB /* Sources */,
+				DF164C9B1F98D8010022AEEB /* Frameworks */,
+				DF164C9C1F98D8010022AEEB /* Resources */,
+				F1A9F1F69FB0E59EEF18601F /* [CP] Embed Pods Frameworks */,
+				626D1EA22B0268C6DD11DB71 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarvelHeroes;
+			productName = MarvelHeroes;
+			productReference = DF164C9E1F98D8010022AEEB /* MarvelHeroes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF164CB81F98D8020022AEEB /* MarvelHeroesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF164CD01F98D8020022AEEB /* Build configuration list for PBXNativeTarget "MarvelHeroesTests" */;
+			buildPhases = (
+				2135F057FB7F3286C8164D16 /* [CP] Check Pods Manifest.lock */,
+				DF164CB51F98D8020022AEEB /* Sources */,
+				DF164CB61F98D8020022AEEB /* Frameworks */,
+				DF164CB71F98D8020022AEEB /* Resources */,
+				5DFEDAE7B3306893105E4470 /* [CP] Embed Pods Frameworks */,
+				E53D7B46379A75EE38B2C291 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF164CBB1F98D8020022AEEB /* PBXTargetDependency */,
+			);
+			name = MarvelHeroesTests;
+			productName = MarvelHeroesTests;
+			productReference = DF164CB91F98D8020022AEEB /* MarvelHeroesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF164CC31F98D8020022AEEB /* MarvelHeroesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF164CD31F98D8020022AEEB /* Build configuration list for PBXNativeTarget "MarvelHeroesUITests" */;
+			buildPhases = (
+				FFBEB00DD201D44C878CD281 /* [CP] Check Pods Manifest.lock */,
+				DF164CC01F98D8020022AEEB /* Sources */,
+				DF164CC11F98D8020022AEEB /* Frameworks */,
+				DF164CC21F98D8020022AEEB /* Resources */,
+				F12E3EAB99E140401DF90A99 /* [CP] Embed Pods Frameworks */,
+				B622AB3818A0027E337A1DC1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF164CC61F98D8020022AEEB /* PBXTargetDependency */,
+			);
+			name = MarvelHeroesUITests;
+			productName = MarvelHeroesUITests;
+			productReference = DF164CC41F98D8020022AEEB /* MarvelHeroesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF164C961F98D8010022AEEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ivo João Serra Magalhães Teixeira";
+				TargetAttributes = {
+					DF164C9D1F98D8010022AEEB = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					DF164CB81F98D8020022AEEB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF164C9D1F98D8010022AEEB;
+					};
+					DF164CC31F98D8020022AEEB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF164C9D1F98D8010022AEEB;
+					};
+				};
+			};
+			buildConfigurationList = DF164C991F98D8010022AEEB /* Build configuration list for PBXProject "MarvelHeroes" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF164C951F98D8010022AEEB;
+			productRefGroup = DF164C9F1F98D8010022AEEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF164C9D1F98D8010022AEEB /* MarvelHeroes */,
+				DF164CB81F98D8020022AEEB /* MarvelHeroesTests */,
+				DF164CC31F98D8020022AEEB /* MarvelHeroesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF164C9C1F98D8010022AEEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2435261FBDEFE8001234D6 /* API.json in Resources */,
+				DF164CB11F98D8010022AEEB /* LaunchScreen.storyboard in Resources */,
+				DF164CAE1F98D8010022AEEB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF164CB71F98D8020022AEEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF164CC21F98D8020022AEEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2135F057FB7F3286C8164D16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarvelHeroesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		296687F6D6C54C99EE85EE50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarvelHeroes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DFEDAE7B3306893105E4470 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarvelHeroesTests/Pods-MarvelHeroesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		626D1EA22B0268C6DD11DB71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarvelHeroes/Pods-MarvelHeroes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B622AB3818A0027E337A1DC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarvelHeroesUITests/Pods-MarvelHeroesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E53D7B46379A75EE38B2C291 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarvelHeroesTests/Pods-MarvelHeroesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F12E3EAB99E140401DF90A99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarvelHeroesUITests/Pods-MarvelHeroesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1A9F1F69FB0E59EEF18601F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MarvelHeroes/Pods-MarvelHeroes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FFAutoLayout/FFAutoLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFAutoLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarvelHeroes/Pods-MarvelHeroes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFBEB00DD201D44C878CD281 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarvelHeroesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF164C9A1F98D8010022AEEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF818C0C1FCEBC3B00D501C5 /* IJTActivityIndicatorController.m in Sources */,
+				DFDFBC571FCDC87800D4D821 /* IJTHeroesListingCell.m in Sources */,
+				DFDFBC5E1FCDC8AF00D4D821 /* IJTHeroDetailedDataSource.m in Sources */,
+				DFDFBC8F1FCDC95B00D4D821 /* IJTNetworkLayer+Serie.m in Sources */,
+				DF8023001F9E07180023019A /* IJTEventModel.m in Sources */,
+				DFDFBC8B1FCDC95B00D4D821 /* IJTNetworkLayer.m in Sources */,
+				DF959AA61FD06C32007B4BBE /* IJTAnyPromise+Hero.m in Sources */,
+				DFDFBC771FCDC93F00D4D821 /* IJTCache.m in Sources */,
+				DF818C091FCEBA4B00D501C5 /* IJTPersistenceCoordinator.m in Sources */,
+				DF1463A81FEC0BC100FDBB55 /* IJTTopicDetailedView.m in Sources */,
+				DFDFBC551FCDC87800D4D821 /* IJTHeroesListingDataSource.m in Sources */,
+				DFDFBC6A1FCDC92A00D4D821 /* IJTFavoritesDataSource.m in Sources */,
+				DF959A9C1FD05C22007B4BBE /* IJTAnyPromise+Story.m in Sources */,
+				DF959AA21FD05D60007B4BBE /* IJTAnyPromise+Serie.m in Sources */,
+				DF959A991FD05AEA007B4BBE /* IJTAnyPromise+Comic.m in Sources */,
+				DFDFBC8D1FCDC95B00D4D821 /* IJTNetworkLayer+Story.m in Sources */,
+				DFDFBC581FCDC87800D4D821 /* IJTHeroesListingCell+Configuration.m in Sources */,
+				DFDFBC641FCDC91000D4D821 /* IJTTopicDetailedViewController.m in Sources */,
+				DF164CA31F98D8010022AEEB /* IJTAppDelegate.m in Sources */,
+				DF8022F91F9E06F20023019A /* IJTStoryModel.m in Sources */,
+				DF164CB41F98D8010022AEEB /* main.m in Sources */,
+				DFDFBC631FCDC91000D4D821 /* IJTTopicDetailedViewControllerDataSource.m in Sources */,
+				DFDFBC8A1FCDC95B00D4D821 /* IJTNetworkLayer+SuperHero.m in Sources */,
+				DFDFBC8E1FCDC95B00D4D821 /* IJTNetworkLayerConfig.m in Sources */,
+				DF8023031F9E09C60023019A /* IJTSerieModel.m in Sources */,
+				DF164CE11F98D9DA0022AEEB /* IJTSuperHeroModel.m in Sources */,
+				DF774AC81FD6C71A0071C3EC /* IJTHeroDetailedView.m in Sources */,
+				DFDFBC911FCDC95B00D4D821 /* IJTNetworkLayer+Comic.m in Sources */,
+				DF164CAC1F98D8010022AEEB /* MarvelHeroes.xcdatamodeld in Sources */,
+				DF959A9F1FD05CD3007B4BBE /* IJTAnyPromise+Event.m in Sources */,
+				DFDFBC781FCDC93F00D4D821 /* IJTAPIConstants.m in Sources */,
+				DF9BF0151FA0CF0000F09D40 /* IJTPushAnimator.m in Sources */,
+				DF774ACB1FD6C74A0071C3EC /* IJTHeroDetailedView+Configuration.m in Sources */,
+				DFDFBC901FCDC95B00D4D821 /* IJTNetworkLayer+UIImage.m in Sources */,
+				DFDFBC691FCDC92A00D4D821 /* IJTFavoritesViewController.m in Sources */,
+				DFDFBC8C1FCDC95B00D4D821 /* IJTNetworkLayer+Event.m in Sources */,
+				DFDFBC561FCDC87800D4D821 /* IJTHeroesListingViewController.m in Sources */,
+				DF8022FC1F9E06FD0023019A /* IJTComicModel.m in Sources */,
+				DFDFBC5D1FCDC8AF00D4D821 /* IJTHeroDetailedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF164CB51F98D8020022AEEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF818BF81FCEA78E00D501C5 /* IJTNetworkLayer+SuperHeroTests.m in Sources */,
+				DF818BEF1FCEA78300D501C5 /* IJTSerieModelTests.m in Sources */,
+				DF818C001FCEA79400D501C5 /* IJTUtilsTests.m in Sources */,
+				DF818BFF1FCEA79400D501C5 /* IJTNSCache+UIImageTests.m in Sources */,
+				DF818BFA1FCEA78E00D501C5 /* IJTNetworkLayer+TopicTests.m in Sources */,
+				DF818BF71FCEA78E00D501C5 /* IJTNetworkLayer+UIImageTests.m in Sources */,
+				DF818BF21FCEA78300D501C5 /* IJTSuperHeroModelTests.m in Sources */,
+				DF818BF91FCEA78E00D501C5 /* IJTNetworkLayerTests.m in Sources */,
+				DF818BEE1FCEA78300D501C5 /* IJTEventModelTests.m in Sources */,
+				DF818BF11FCEA78300D501C5 /* IJTComicModelTests.m in Sources */,
+				DF164CBE1F98D8020022AEEB /* MarvelHeroesTests.m in Sources */,
+				DF818BF01FCEA78300D501C5 /* IJTStoryModelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF164CC01F98D8020022AEEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF164CC91F98D8020022AEEB /* MarvelHeroesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF164CBB1F98D8020022AEEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF164C9D1F98D8010022AEEB /* MarvelHeroes */;
+			targetProxy = DF164CBA1F98D8020022AEEB /* PBXContainerItemProxy */;
+		};
+		DF164CC61F98D8020022AEEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF164C9D1F98D8010022AEEB /* MarvelHeroes */;
+			targetProxy = DF164CC51F98D8020022AEEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF164CAF1F98D8010022AEEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF164CB01F98D8010022AEEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF164CCB1F98D8020022AEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF164CCC1F98D8020022AEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF164CCE1F98D8020022AEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE551F054B4C20B99385E45E /* Pods-MarvelHeroes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85P469P4QQ;
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = MarvelHeroes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farfetch.MarvelHeroes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarvelHeroes/MarvelHeroes-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF164CCF1F98D8020022AEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AEA989B420DEF92380A48E0 /* Pods-MarvelHeroes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85P469P4QQ;
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = MarvelHeroes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farfetch.MarvelHeroes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarvelHeroes/MarvelHeroes-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF164CD11F98D8020022AEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E665402554B9044B69846F /* Pods-MarvelHeroesTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarvelHeroesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farfetch.MarvelHeroesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarvelHeroes.app/MarvelHeroes";
+			};
+			name = Debug;
+		};
+		DF164CD21F98D8020022AEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8CB69AE3DE3AD0E4B686F70 /* Pods-MarvelHeroesTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarvelHeroesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farfetch.MarvelHeroesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarvelHeroes.app/MarvelHeroes";
+			};
+			name = Release;
+		};
+		DF164CD41F98D8020022AEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A07590F1739981EEF53202 /* Pods-MarvelHeroesUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarvelHeroesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farfetch.MarvelHeroesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarvelHeroes;
+			};
+			name = Debug;
+		};
+		DF164CD51F98D8020022AEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F6BBA51F6D09285A136335 /* Pods-MarvelHeroesUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarvelHeroesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farfetch.MarvelHeroesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarvelHeroes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF164C991F98D8010022AEEB /* Build configuration list for PBXProject "MarvelHeroes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF164CCB1F98D8020022AEEB /* Debug */,
+				DF164CCC1F98D8020022AEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF164CCD1F98D8020022AEEB /* Build configuration list for PBXNativeTarget "MarvelHeroes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF164CCE1F98D8020022AEEB /* Debug */,
+				DF164CCF1F98D8020022AEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF164CD01F98D8020022AEEB /* Build configuration list for PBXNativeTarget "MarvelHeroesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF164CD11F98D8020022AEEB /* Debug */,
+				DF164CD21F98D8020022AEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF164CD31F98D8020022AEEB /* Build configuration list for PBXNativeTarget "MarvelHeroesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF164CD41F98D8020022AEEB /* Debug */,
+				DF164CD51F98D8020022AEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF164CAA1F98D8010022AEEB /* MarvelHeroes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF164CAB1F98D8010022AEEB /* MarvelHeroes.xcdatamodel */,
+			);
+			currentVersion = DF164CAB1F98D8010022AEEB /* MarvelHeroes.xcdatamodel */;
+			path = MarvelHeroes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF164C961F98D8010022AEEB /* Project object */;
+}

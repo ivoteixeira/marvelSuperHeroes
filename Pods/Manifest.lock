@@ -1,0 +1,25 @@
+PODS:
+  - FFAutoLayout (0.1.7)
+  - PromiseKit (4.5.0):
+    - PromiseKit/Foundation (= 4.5.0)
+    - PromiseKit/QuartzCore (= 4.5.0)
+    - PromiseKit/UIKit (= 4.5.0)
+  - PromiseKit/CorePromise (4.5.0)
+  - PromiseKit/Foundation (4.5.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.5.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.5.0):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - FFAutoLayout (~> 0.1.7)
+  - PromiseKit (~> 4.4)
+
+SPEC CHECKSUMS:
+  FFAutoLayout: 6daef81d07d4edccf0917d29e853105c3142c735
+  PromiseKit: 9c1d9f6d7b65e3951a90bea7f407c56972be5d8e
+
+PODFILE CHECKSUM: 3edf844644144046ad994b78c5e6224017f25571
+
+COCOAPODS: 1.3.1
